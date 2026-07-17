@@ -1,28 +1,28 @@
 class Deciduous < Formula
   desc "Decision graph tooling for AI-assisted development"
   homepage "https://notactuallytreyanastasio.github.io/deciduous/"
-  version "0.13.15"
-  license "MIT"
+  version "0.16.0"
+  license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/notactuallytreyanastasio/deciduous/releases/download/v#{version}/deciduous-darwin-arm64"
-      sha256 "672f848bfaa119b66162239625cd616865c8f4523a6fb197b1bc91d5f519ba17"
+      sha256 "1e4cf8a5d909591f2a77b6d85ab33b2ac8eaba3deb049bc56b4527a633a738c9"
     end
     on_intel do
       url "https://github.com/notactuallytreyanastasio/deciduous/releases/download/v#{version}/deciduous-darwin-amd64"
-      sha256 "047e684afd8a86e084ee3994aa14fa025ab933f613831492445dd87894c2f219"
+      sha256 "da4c476a7a96235dcff531a167aa8b32d1ffee0090ed6990fcf30ab0b6afbf82"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/notactuallytreyanastasio/deciduous/releases/download/v#{version}/deciduous-linux-arm64"
-      sha256 "1a157987f5ef9601e9fc16214466324a607830cf0a5221d6545e4f890566f9a3"
+      sha256 "8ab283f7f64ebaaecceed632220258d5ab8d4a7ed892488b983e099f7c067883"
     end
     on_intel do
       url "https://github.com/notactuallytreyanastasio/deciduous/releases/download/v#{version}/deciduous-linux-amd64"
-      sha256 "bc733cbcff8ad8a3133a383708b2104602521ff5cf0f3ffdb257f8d35627f679"
+      sha256 "6bb5a475124ff5453fd088d13ae092593d9d8dea8bafecec9e4e5192216ada0e"
     end
   end
 
